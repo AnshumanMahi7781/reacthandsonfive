@@ -1,29 +1,34 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.App{
+
+.App {
   font-size: 20px;
   padding-bottom: 1em;
 }
-.CompoBox{
-border-bottom: 2px solid red;
-padding-bottom: 1em;
+
+.CompoBox {
+  border-bottom: 2px solid red;
+  padding-bottom: 1em;
 }
-.DescriptionBox{
+
+.DescriptionBox {
   line-height: 40px;
   font-size: 26px;
   padding: 1em;
 }
-.exampleBox{
+
+.exampleBox {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-size: 30px;
 }
-button{
+
+button {
   border: 1px solid blue;
   cursor: pointer;
   margin-top: 20px;
@@ -31,25 +36,43 @@ button{
   padding: 1em;
   border-radius: 10px;
 }
-.explanationBox{
+
+.explanationBox {
   padding: 1em;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 30px;
 }
-.codeSnap{
+
+.codeSnap {
   width: 700px;
   height: 500px;
 }
-.counterFunctionality{
+
+.HOCImgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 400px;
+
+}
+
+.HoccodeSnap {
+  width: 30%;
+  height: 100%;
+
+}
+
+.counterFunctionality {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-color: white;
+  color: white;
   background-color: darkkhaki;
   border-radius: 10px;
   width: 250px;
   height: 200px;
-  margin: 20px 90px;
+  margin: 20px 100px;
 }
