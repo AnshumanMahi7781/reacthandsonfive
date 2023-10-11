@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  font-size: 20px;
+  padding-bottom: 1em;
+}
+.CompoBox{
+border-bottom: 2px solid red;
+padding-bottom: 1em;
+}
+.DescriptionBox{
+  line-height: 40px;
+  font-size: 26px;
+  padding: 1em;
+}
+.exampleBox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+button{
+  border: 1px solid blue;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  padding: 1em;
+  border-radius: 10px;
+}
+.explanationBox{
+  padding: 1em;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+.codeSnap{
+  width: 700px;
+  height: 500px;
+}
+.counterFunctionality{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+color: white;
+  background-color: darkkhaki;
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  margin: 20px 90px;
+}
